@@ -3,8 +3,6 @@ import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import CssBaseline from '@mui/material/CssBaseline';
 import TextField from '@mui/material/TextField';
-import FormControlLabel from '@mui/material/FormControlLabel';
-import Checkbox from '@mui/material/Checkbox';
 import Link from '@mui/material/Link';
 import Grid from '@mui/material/Grid';
 import Box from '@mui/material/Box';
@@ -49,7 +47,6 @@ export default function Auth() {
 
     handleSignUp,
     handleLogIn,
-    clearInputs
 
   } = useAuth()
 
@@ -120,7 +117,7 @@ export default function Auth() {
 
             </Grid>
             {hasAccount ? <Button
-              // onClick={() => {handleLogIn(); navigate('/')}}
+              onClick={() => {handleLogIn(); navigate('/')}}
               type="submit"
               fullWidth
               variant="contained"
@@ -129,7 +126,7 @@ export default function Auth() {
               Log In
             </Button> :
               <Button
-                // onClick={() => {handleSignUp() ; navigate('/')}}
+                onClick={() => {handleSignUp() ; navigate('/')}}
                 type="submit"
                 fullWidth
                 variant="contained"

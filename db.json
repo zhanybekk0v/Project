@@ -1,3 +1,168 @@
-{"products" : [
-  
-]}
+{
+  "products": [
+    {
+      "name": "Apple iPhone SE 64GB серебристый",
+      "descr": "Представляем iPhone SE — самый мощный 4-дюймовый смартфон в истории. Чтобы создать его, разработчики взяли за основу полюбившийся дизайн и полностью поменяли содержание. Установили тот же передовой процессор A9, что и на iPhone 6s, и камеру 12 Мп для съёмки невероятных фотографий и видео 4K. А благодаря Live Photos любой ваш снимок буквально оживёт.",
+      "price": 415,
+      "picture": "https://svetofor.info/images/thumbnails/500/500/detailed/74/apple-iphone-se-silver_2c7c-lk.jpg",
+      "type": "telephone",
+      "id": 1
+    },
+    {
+      "name": "Смартфон Samsung Galaxy S22 ",
+      "description": "Соотношение сторон телефона: 20:9Размер изображения (дюйм): 1440x3040Количество мегапикселей основной камеры телефона: 108+10+10+12Тип процессора телефона: Exynos 2200Датчики и сенсоры телефона: гироскоп, компас, акселерометр, барометр, Отпечаток пальца (под дисплеем, ультразвуковой), приближение. Дополнительная информация о телефоне: несъемный аккумулятор",
+      "price": 1200,
+      "picture": "https://svetofor.info/images/detailed/291/smartfon-samsung-galaxy-s22-ultra-256-gb-ram-12-gb-dual-sim-purple-1.jpg",
+      "type": "telephone",
+      "id": 3
+    },
+    {
+      "name": "Смартфон Xiaomi 12 Про ",
+      "descr": "Соотношение сторон телефона: 20:9Размер изображения (дюйм): 1440x3200Количество мегапикселей основной камеры телефона: 50+50+50Тип процессора телефона: SM8450 Snapdragon 8 Gen 1Датчики и сенсоры телефона: датчик освещения, Гироскоп, цифровой компас, сканер отпечатка .Дополнительная информация о телефоне: Быстрая зарядка 120 Вт, 100% за 18 минут",
+      "price": 380,
+      "picture": "https://svetofor.info/images/detailed/291/smartfon-xiaomi-12-pro-256-gb-ram-12-gb-dual-sim-purple-1.jpg",
+      "type": "telephone",
+      "id": 4
+    },
+    {
+      "name": "Телефон Honor 10X Lite",
+      "descr": "Смартфон Honor обладает хорошей камерой на 48+8+2+2 Мп. Объем встроенной памяти составляет 128 Gb. Оперативной памяти на 4 Gb хватает для стабильной работы системы. Под крышкой скрывается аккумулятор ёмкостью 5000 мАч. Поддержка диапазона 4G даст вам возможность пользоваться быстрым интернетом.",
+      "price": 180,
+      "picture": "https://svetofor.info/images/thumbnails/500/500/detailed/219/telefon-honor-10x-lite-128-gb-ram-4-gb-white.jpg",
+      "type": "telephone",
+      "id": 6
+    },
+    {
+      "name": "СМАРТ-ЧАСЫ APPLE WATCH SERIES 7 GPS 45MM GREEN ALUMINIUM CLOVER SPORT BAND MKN73GK/A",
+      "descr": "Область просмотра на всегда включённом дисплее Retina увеличена примерно на 20% по сравнению с Series 6 — теперь пользоваться часами ещё удобнее",
+      "price": 550,
+      "picture": "https://www.ixbt.com/img/r30/00/02/49/31/apple-watch-series-7-big.jpg",
+      "type": "watch",
+      "id": 7
+    },
+    {
+      "name": "СМАРТ-ЧАСЫ HUAWEI WATCH GT2 PRO SPORT NIGHT BLACK",
+      "descr": "Создатели HUAWEI WATCH GT поставили перед собой задачу выявить максимальный потенциал батареи смарт-часов. Благодаря двойному процессору для носимых устройств Kirin A1 (собственная разработка HUAWEI) и интеллектуальной технологии энергосбережения вы сможете пользоваться смарт-часами круглосуточно до 2 недель без подзарядки",
+      "price": 314,
+      "picture": "data:image/jpeg;base64,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",
+      "type": "watch",
+      "id": 8
+    },
+    {
+      "name": " СМАРТ-ЧАСЫ SAMSUNG GALAXY WATCH 3 STAINLESS 41MM SILVER (SM-R850NZSACIS)",
+      "descr": "Теперь состояние здоровья контролировать стало легче. В инновационном устройстве Galaxy Watch3 с классическим дизайном гармонично сочетаются функциональность смартфона с новейшей технологией мониторинга здоровья пользователя.",
+      "price": 292,
+      "picture": "https://object.pscloud.io/cms/cms/Photo/img_0_911_410_6_1_320.webp",
+      "type": "watch",
+      "id": 9
+    },
+    {
+      "name": "СМАРТ ЧАСЫ SAMSUNG GALAXY WATCH ACTIVE 38MM SM-R500 BLACK (SM-R500NZKASKZ)",
+      "descr": "Умные часы Galaxy Watch Active получили современный премиальный дизайн и умные технологии. Устройство выполнено в тонком и легком корпусе, внутри которого нашлось место для современной начинки и богатого набора функций.",
+      "price": 164,
+      "picture": "https://object.pscloud.io/cms/cms/Photo/img_0_911_285_4_320.webp",
+      "type": "watch",
+      "id": 10
+    },
+    {
+      "name": " СМАРТ-ЧАСЫ HUAWEI WATCH FIT ACTIVE SAKURA PINK",
+      "descr": "Яркий AMOLED-экран 1,64 дюйма | Мониторинг здоровья1 и тренировок | GPS",
+      "price": 112,
+      "picture": "https://object.pscloud.io/cms/cms/Photo/img_0_911_432_7_1_320.webp",
+      "type": "watch",
+      "id": 11
+    },
+    {
+      "name": "СМАРТ-ЧАСЫ AMAZFIT BIP U BLACK",
+      "descr": "Разрешение Xiaomi Amazfit Bip U составляет 320x302 пикселя. Высокое разрешение дисплея умных часов создает изысканный визуальный образ дисплея. Уведомления, сообщения и напоминания будут видны отчетливо при любом освещении.",
+      "price": 56,
+      "picture": "https://object.pscloud.io/cms/cms/Photo/img_0_911_542_0_1_320.webp",
+      "type": "watch",
+      "id": 12
+    },
+    {
+      "name": "Ноутбук Dell G3 15 Gaming G3590 15.6 ' Intel Core i5 9300H 8 Gb DDR4 512 Gb SSD GTX 1060Ti белый",
+      "descr": "Системы Dell Gaming специально спроектированы с учетом уникальных высоких требований игровой аудитории. Они оснащаются новейшими процессорами и мощными выделенными графическими адаптерами, чтобы сделать каждую игру еще насыщеннее и реалистичнее.",
+      "price": 1234,
+      "picture": "https://svetofor.info/images/thumbnails/500/500/detailed/183/noutbuk-dell-g3-15-gaming-g3590-156-intel-core-i5-9300h-8-gb-ddr4-512-gb-ssd-gtx-1060ti-belyj-1.jpg",
+      "type": "laptop",
+      "id": 13
+    },
+    {
+      "name": "Ноутбук ASUS X540UB 15.6 ' Intel Core i5 8250U 12 Gb DDR4 240 Gb SSD NVIDIA GeForce MX110 серебристый",
+      "descr": "Процессор Intel Core i5 сделает любую вашу работу невероятно быстрой. Объем оперативной памяти составляет 12 Gb. Ноутбук ASUS X540UB c разрешением в 1920x1080 отлично подойдет для работы или просмотра любимых фильмов и сериалов. А с видеокартой NVIDIA GeForce MX110 изображение будет всегда четким и красивым. С объемом жесткого диска в 240 Gb вам всегда хватит места, чтобы сохранить важные документы. Вы можете пользоваться Wi-Fi в любом удобном для вас месте.",
+      "price": 802,
+      "picture": "https://svetofor.info/images/thumbnails/500/500/detailed/216/noutbuk-asus-x540ub-156-intel-core-i5-8250u-12-gb-ddr4-240-gb-ssd-nvidia-geforce-mx110-serebristyj-1.jpg",
+      "type": "laptop",
+      "id": 14
+    },
+    {
+      "name": "Ноутбук Asus VivoBook S532FA-SB77 15.6 ' Intel Core i7 8565U 8 Gb DDR4 512 Gb SSD UHD Graphics 620 серебристый",
+      "descr": "оутбук ASUS, модель VivoBook S15 S532FA (S532FA-SB77) оснащён всем необходимым для быстрой и комфортной работы. Быстродействие обеспечивает 4-ядерный процессор Intel Core i7-8565U с частотой работы 1,8 ГГц (до 4,6 ГГц в режиме TurboBoost) и 8 ГБ оперативной памяти. Для хранения данных установлен накопитель 512 ГБ SSD, присутствует кардридер . Видео на 15,6\" IPS экран с разрешением 1920x1080 точек выводит графический адаптер Intel HD Graphics 630. ",
+      "price": 600,
+      "picture": "https://svetofor.info/images/thumbnails/500/500/detailed/182/noutbuk-asus-vivobook-s532fa-sb77-156-intel-core-i7-8565u-8-gb-ddr4-512-gb-ssd-uhd-graphics-620-serebristyj.jpg",
+      "type": "laptop",
+      "id": 15
+    },
+    {
+      "name": "Ноутбук Lenovo Yoga Slim 7 15ITL05 Core i7-1165G7 (up to 4.7Ghz), 16GB, 256GB SSD,",
+      "descr": "16GB, 256GB SSD, Intel® Iris® Xe Graphics, 15.6\" IPS FULL HD (1920x1080), WiFi, BT, Cam, DOS, Eng-Rus",
+      "price": 1300,
+      "picture": "https://ultra.kg/upload/resize_cache/iblock/f61/500_500_1d0e97ea46f4438969ab06dd5b311ca67/f6115937c5ce83d1ace89a7611a41026.jpg",
+      "type": "laptop",
+      "id": 16
+    },
+    {
+      "name": "НОУТБУК APPLE MACBOOK PRO 13.3\" 2020 APPLE M1 (8+256GB SSD)",
+      "descr": "С появлением чипа M1 MacBook Pro 13 дюймов становится невероятно про­из­во­ди­тель­ным и быстрым. Мощность центрального процессора выросла до 2,8 раза. Скорость обработки графики — до 5 раз. Благодаря нашей передовой системе Neural Engine скорость машинного обучения возросла до 11 раз. При этом MacBook Pro работает без подзарядки до 20 часов — дольше, чем любой другой Mac. Наш самый популярный ноутбук класса Pro выходит на совершенно новый уровень.",
+      "price": 400,
+      "picture": "https://softech.kg/image/cache/73740f103f71d23f56e0e3c319c68bd9.jpg",
+      "type": "laptop",
+      "id": 17
+    },
+    {
+      "name": "Samsung Galaxy A31",
+      "descr": "В Galaxy A31 есть все, что ты хочешь получить от смартфона. Корпус толщиной всего 8.6мм оснащен невероятно мощным аккумулятором емкостью 5000 мАч (типичное значение). Смартфон комфортно ощущается в руке благодаря эргономичной форме, а ритмический узор задней панели эффектно дополняет его внешний вид. Ты можешь выбрать смартфон Черного, Белого или Красного цвета.",
+      "price": 150,
+      "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6GEmwGRDmB0fkokptU7n1Z5xSVvjtAoLNGQ&usqp=CAU",
+      "type": "telephone",
+      "id": 18
+    },
+    {
+      "picture": "https://images.unsplash.com/photo-1490730141103-6cac27aaab94?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZnJlZXxlbnwwfHwwfHw%3D&w=1000&q=80",
+      "name": "dfc",
+      "descr": "Qwasd",
+      "author": "",
+      "price": null,
+      "type": "qas",
+      "id": 19
+    },
+    {
+      "picture": "https://images.unsplash.com/photo-1490730141103-6cac27aaab94?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZnJlZXxlbnwwfHwwfHw%3D&w=1000&q=80",
+      "name": "dfc",
+      "descr": "Qwasd",
+      "author": "",
+      "price": null,
+      "type": "qas",
+      "id": 20
+    },
+    {
+      "picture": "https://images.unsplash.com/photo-1490730141103-6cac27aaab94?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZnJlZXxlbnwwfHwwfHw%3D&w=1000&q=80",
+      "name": "dfc",
+      "descr": "Qwasd",
+      "author": "",
+      "price": null,
+      "type": "qas",
+      "id": 21
+    },
+    {
+      "picture": "https://images.unsplash.com/photo-1490730141103-6cac27aaab94?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8ZnJlZXxlbnwwfHwwfHw%3D&w=1000&q=80",
+      "name": "dfc",
+      "descr": "Qwasd",
+      "author": "",
+      "price": null,
+      "type": "qas",
+      "id": 22
+    }
+  ]
+}

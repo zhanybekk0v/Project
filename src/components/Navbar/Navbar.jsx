@@ -13,17 +13,21 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import AdbIcon from '@mui/icons-material/Adb';
 import { Link, useNavigate } from 'react-router-dom';
-import Logo from './img/profile-logo.jpg'
-import Logos from './img/epicGame.png'
-import { useAuth } from '../contexts/AuthContextProvider';
-
+import Logo from '../img/profile-logo.jpg'
+import Logos from '../img/epicGame.png'
+import { useAuth } from '../../contexts/AuthContextProvider';
+import LocalGroceryStoreIcon from '@mui/icons-material/LocalGroceryStore';
+import { useCart } from '../../contexts/CartContextProvider';
+import { Badge } from '@mui/material';
+import { getCountProductsInCart } from '../../helpers/function';
+import { ADMIN } from '../../helpers/consts';
 
 const pages = [
   { name: 'Home', link: '/', id: 1 },
   { name: 'Our Partners', link: '/partners', id: 2 },
   { name: 'Products', link: '/products', id: 3 },
   { name: 'About Us', link: '/about', id: 4 },
-  { name: 'Admin', link: '/admin', id: 5 },
+  // { name: 'Admin', link: '/admin', id: 5 },
 
 
 ];
@@ -32,6 +36,7 @@ const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];
 function Navbar() {
 
   const { handleLogOut, user: { email } } = useAuth()
+  const { checkProductInCart } = useCart()
   console.log(email);
   const [anchorElNav, setAnchorElNav] = React.useState(null);
   const [anchorElUser, setAnchorElUser] = React.useState(null);
@@ -52,9 +57,15 @@ function Navbar() {
   };
 
   const navigate = useNavigate()
+  const [count, setCount] = React.useState(0)
+  const { addProductToCart } = useCart()
+
+  React.useEffect(() => {
+    setCount(getCountProductsInCart)
+  }, [addProductToCart])
 
   return (
-    <AppBar position="static">
+    <AppBar position="fixed" color='success' >
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           {/* <AdbIcon sx={{ display: { xs: 'none', md: 'flex' }, mr: 1 }} /> */}
@@ -113,6 +124,15 @@ function Navbar() {
                   </Link>
                 </MenuItem>
               ))}
+
+              {email === ADMIN ? (<MenuItem onClick={handleCloseNavMenu}>
+                <Link to='/admin'>
+                  <Typography textAlign="canter">ADMIN</Typography>
+                </Link>
+              </MenuItem>) : (
+            null
+              )}
+
             </Menu>
           </Box>
           <AdbIcon sx={{ display: { xs: 'flex', md: 'none' }, mr: 1 }} />
@@ -147,7 +167,28 @@ function Navbar() {
               </Link>
 
             ))}
+
+            {email === ADMIN ? ( <Link  to='/admin'>
+                <Button
+
+                  onClick={handleCloseNavMenu}
+                  sx={{ my: 2, color: 'white', display: 'block' }}
+                >
+                  ADMIN
+                </Button>
+              </Link>) : (null) }
           </Box>
+          <Typography>
+            {email ? `Hello , ${email}` : 'Login please'}
+          </Typography>
+
+          <Link to='/cart'>
+            <Button>
+              <Badge color='primary' badgeContent={count}>
+                <LocalGroceryStoreIcon color={checkProductInCart() ? 'primary' : ''} sx={{ color: 'white', width: 30, height: 30 }} />
+              </Badge>
+            </Button>
+          </Link>
 
           <Box sx={{ flexGrow: 0 }}>
             <Tooltip title="Open settings">
@@ -174,7 +215,7 @@ function Navbar() {
               <MenuItem onClick={handleCloseUserMenu}>
                 {email ?
                   <Typography onClick={handleLogOut} textAlign="center">Log Out</Typography> :
-                  <Typography onClick={navigate('/auth')} textAlign="center">Log In</Typography>
+                  <Typography onClick={() => navigate('/auth')} textAlign="center">Log In</Typography>
                 }
 
               </MenuItem>
